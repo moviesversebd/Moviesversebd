@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MVBD Official Links</title>
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      height: 100vh;
+      background: url('https://i.postimg.cc/XNsf6j2w/IMG-20251018-193950-580.jpg') no-repeat center center/cover;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      backdrop-filter: blur(5px);
+    }
+
+    .logo {
+      width: 140px;
+      height: 140px;
+      border-radius: 20px;
+      margin-bottom: 25px;
+      overflow: hidden;
+      box-shadow: 0 0 30px #00ff88;
+      animation: bounce 2s infinite alternate ease-in-out;
+    }
+
+    .logo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 20px;
+    }
+
+    @keyframes bounce {
+      from { transform: translateY(0); }
+      to { transform: translateY(-10px); }
+    }
+
+    h1 {
+      color: #fff;
+      font-size: 2rem;
+      letter-spacing: 2px;
+      margin-bottom: 25px;
+      text-shadow: 0 0 15px #00ff88;
+      animation: fadeIn 2s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.9); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      width: 90%;
+      max-width: 400px;
+    }
+
+    .link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      background: rgba(0, 0, 0, 0.6);
+      color: white;
+      padding: 15px;
+      border-radius: 40px;
+      text-decoration: none;
+      font-size: 1.1rem;
+      transition: 0.3s ease;
+      border: 2px solid transparent;
+      animation: glow 2s infinite alternate;
+    }
+
+    .link i {
+      font-size: 1.4rem;
+    }
+
+    .link:hover {
+      transform: scale(1.05);
+      border-color: #00ff88;
+      box-shadow: 0 0 20px #00ff88;
+    }
+
+    @keyframes glow {
+      from { box-shadow: 0 0 5px #00ff88; }
+      to { box-shadow: 0 0 25px #00ff88; }
+    }
+  </style>
+</head>
+<body>
+  <div class="logo">
+    <img src="https://i.postimg.cc/XNsf6j2w/IMG-20251018-193950-580.jpg" alt="MVBD Logo">
+  </div>
+
+  <h1>MVBD OFFICIAL LINKS</h1>
+
+  <div class="links">
+    <a href="https://www.facebook.com/share/16muX2sLWQ/" class="link"><i class="fab fa-facebook"></i> Facebook Main Page</a>
+    <a href="https://www.facebook.com/share/17b2BvN2iR/" class="link"><i class="fab fa-facebook"></i> Facebook RX Page</a>
+    <a href="https://www.facebook.com/groups/733950559669339/?ref=share&mibextid=NSMWBT" class="link"><i class="fab fa-facebook"></i> Facebook Public Group</a>
+    <a href="https://www.facebook.com/groups/963258709145001/?ref=share&mibextid=NSMWBT" class="link"><i class="fab fa-facebook"></i> Facebook Private Group</a>
+    <a href="https://www.tiktok.com/@mvies.vrse.bd?lang=en-GB&is_from_webapp=1&sender_device=mobile&sender_web_id=7563568007496173063" class="link"><i class="fab fa-tiktok"></i> TikTok</a>
+    <a href="https://www.instagram.com/moviesverse.bd?igsh=MTZmdXcyMWRudTIwaA==" class="link"><i class="fab fa-instagram"></i> Instagram</a>
+    <a href="https://t.me/addlist/vXPR8-A8Qco1ODM9" class="link"><i class="fab fa-telegram"></i> Telegram Channels</a>
+    <a href="https://moviesversebd.vercel.app" class="link"><i class="fas fa-globe"></i> Movie Website</a>
+  </div>
+</body>
+</html>
